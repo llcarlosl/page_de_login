@@ -1,0 +1,88 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(/public/pexels-steve-johnson-1509534.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    
+}   
+
+form
+{
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h3
+{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4caf50;
+}
+
+input
+{
+    display: block;
+    margin: 10px auto;
+    width:  100%;
+    height: 5px;
+    padding: 13px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+.botao
+{
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    
+}
+
+.botao:hover
+{
+    background-color: #246928;
+}
+
+@media screen and (max-width: 600px)
+{
+   
+ 
+    form 
+    {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input
+    {
+        height: 25px;
+    }
+}
+
+
+
